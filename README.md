@@ -16,6 +16,7 @@ This is a brief demonstration for an interview code challenge of a business API.
 - .NET 7
 - ASP.NET
 - MSTestV2
+- GitHub Actions for continuous integration build and test on PR or Merge against master
 
 ## Code challenge scenario:
 - The premise is we're building a simple inventory management system. Your team is tasked
