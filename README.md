@@ -17,6 +17,7 @@ This is a brief demonstration for an interview code challenge of a business API.
 - Entity Framework
 - Swagger
 - MSTestV2
+- Moq
 - GitHub Actions for continuous integration build and test on PR or Merge against master
 
 ## Code challenge scenario:
