@@ -14,7 +14,8 @@ This is a brief demonstration for an interview code challenge of a business API.
 ## Built using:
 - VS2022
 - .NET 7
-- ASP.NET
+- Entity Framework
+- Swagger
 - MSTestV2
 - GitHub Actions for continuous integration build and test on PR or Merge against master
 
