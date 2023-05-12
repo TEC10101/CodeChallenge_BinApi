@@ -1,12 +1,13 @@
 # BinApi
 
-This is a brief demonstration for an interview code challenge of a business API.  It showcases making a piece of software to handle a specific scenario (See: Code challenge scenario).
+This is a brief demonstration for an interview code challenge of a business API and I gave myself a **2 hour time limit**.  It showcases how I would organize the solution and one way to make the software to handle the given scenario (See: Code challenge scenario).
 
 ### If I were to continue:
 - Collaborate and clarify with team on requirements.
-- Fully implement every aspect of the API's interactions needed.
-- Implement logging
-- Implement error handling
+- Fully implement every aspect of the different API's interactions needed.
+- Right now the controller layer talks directly with Entity Framework, meaning I short circuit the Service/Repository layers.  This is easy to inject the IServices into the controllers and call their methods, but time did not permit.
+- Implement logging.
+- Implement error handling.
 - I'd want many more test cases that handled **Bad Data** situations as well as fully fleshed out happy path cases.
 - I'd add XML documentation to every method and property.
 - I'd want to get paid :)
